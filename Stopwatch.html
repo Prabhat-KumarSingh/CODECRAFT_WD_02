@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>
+        StopWatch
+    </title>
+    <link rel="icon" href="1.jpg">
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <div class="align">
+        <div id="container">
+            <div class="box">
+                <h4>StopWatch</h4>
+                <div id="time">
+                    
+                    <span class="digits" title="Days">
+                        <div class="text"> Days </div>
+                        <span id="day"> 00 </span>
+                    </span>
+
+                    <span class="colon" id="c1">:</span>
+
+                    <span class="digits" title="Hours">
+                        <div class="text"> Hours </div>
+                        <span id="hour"> 00 </span>
+                    </span>
+
+                    <span class="colon" id="c2">:</span>
+                    
+                    <span class="digits" title="Minutes">
+                        <div class="text"> Minutes </div>
+                        <span id="minute"> 00 </span>
+                    </span>
+
+                    <span class="colon" id="c3">:</span>
+                    
+                    <span class="digits" title="Seconds">
+                        <div class="text"> Seconds </div>
+                        <span id="second"> 00 </span>
+                    </span>
+
+                    <span class="colon" id="c4">:</span>
+                    
+                    <span class="digits" title="Milliseconds">
+                        <div class="text"> Milliseconds </div>
+                        <span id="count"> 00 </span>
+                    </span>
+                    
+                </div>
+                <div id="buttons">
+                    <button class="btn1" id="startstop" title="Click here to Start">
+                        Start
+                    </button>
+
+                    <button class="btn2" id="reset" title="Click here to Reset">
+                        Reset
+                    </button>
+                    <button class="btn3" id="lapse" title="Click here to get Lapsed time">
+                        Lapse
+                    </button>
+                </div>
+            </div>
+
+            <div id="lap">
+                <h5 title="Lapsed time is shown below">Lapse time</h5>
+                <div id="top">
+                    
+                    <!-- <div><b>S.no</b></div>
+                    <div><b>Lap Time</b></div>
+                    <div><b>Total</b></div> -->
+                </div>
+                <div id="lapsetime" title="Lapsed time">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="stopwatch.js"></script>
+</html>

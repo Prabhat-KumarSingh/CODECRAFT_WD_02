@@ -1,0 +1,199 @@
+body {
+    margin: 1vh 1vw;
+    padding: 2vh 2vw;
+    font-family: Times New Roman;
+    background-color: rgba(93, 152, 132, 0.864);
+    filter: drop-shadow(8px 8px 5px rgb(190, 74, 93)) ;
+}
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#container {
+    background-color: rgb(123, 123, 195);
+    padding: 10px;
+    width: 80vw;
+    max-width: 1000px;
+    border: 3px dashed red;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+h4 {
+    transform: rotate(-5deg);
+    text-shadow: 2.5px 2.5px blue;
+    box-shadow: chartreuse 3px 3px 4px 4px;
+    background-color: aquamarine;
+    color: purple;
+    padding: 1px;
+    font-size: 7vw;
+    font-weight: bold;
+    border: 1px dotted rgb(238, 140, 140);
+    border-radius: 50%;
+    margin: 2vh 8vw 6vh;
+    font-style: italic;
+}
+
+
+
+.digits {
+    max-width: 11%;
+    width: 10vw;
+    font-size: 6vw;
+    text-shadow: 1.5px 1.5px blue;
+    box-shadow: red 0.5px 0.5px 1px 1px;
+    color: hwb(335 0% 0%);
+    background-color: rgb(2, 126, 126);
+    padding: 2%;
+    border-radius: 20%;
+}
+.digits:hover{
+    box-shadow: blue 0.5px 0.5px 1px 1px;
+
+}
+.text {
+    font-size: 18%;
+    color: rgba(255, 0, 0, 0.7);
+    font-weight: bold;
+}
+
+.colon{
+    font-size: 8vw;
+    color: blueviolet;
+}
+
+#time{
+    width: 55vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(1, 164, 164);
+    padding: 0.5vw;
+    margin: auto;
+    border-radius: 15px;
+}
+
+
+
+#buttons {
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}
+.btn1,.btn2,.btn3 {
+    min-height: 35px;
+    width: 15vw;
+    height: 6vh;
+    padding: 1px;
+    margin: 2vh 2vw;
+    border-radius: 15px;
+    cursor: pointer;
+    text-shadow: 2.5px 2px rgb(0, 255, 55);
+    font-size: 25px;
+    transition: 0.5s;
+    box-shadow: chocolate 3px 3px 5px 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    font-family: Times new Roman;
+}
+.btn1:hover,.btn2:hover,.btn3:hover {
+    color: rgb(170, 147, 184);
+    text-shadow: 3px 3px rgb(0, 145, 255);
+    box-shadow: rgb(86, 231, 13) 1px 1px 3px 3px;
+    font-style: italic;
+}
+#startstop {
+    background-color: rgba(30, 0, 255, 0.773);
+}
+
+#reset {
+    background-color: rgb(255, 0, 0);
+}
+#lapse {
+    background-color: rgb(0, 77, 23);
+}
+#startstop:hover,#reset:hover,#lapse:hover {
+    background-color: rgb(242, 25, 152);
+}
+
+
+.box{
+    max-width: 990px;
+    background-color: aqua;
+    width: 80vw;
+    border: 0.2vh 0.2vw dotted red;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+h5{
+    width: 90%;
+    height: 40px;
+    padding: 0.5vh 0.5vw;
+    margin: 0.5vh 0.5vw;
+    border-radius: 50px;
+    font-size: 30px;
+    transition: 0.7s;
+    color: rgb(13, 0, 255);
+    font-weight: 550px;
+    border: 0.2vh 0.2vw dotted rgb(13, 0, 255);
+    background-color: rgb(0, 255, 149);
+}
+
+#lap{
+    width: 80vw;
+    height: 100%;
+    margin: 0.5vh 1vw;
+    padding: 1vh 1vw;
+    background-color: rgb(223, 152, 102);
+    text-shadow: 2px 2px red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+#top{
+    width: 100%;
+    padding: 1vh 1vw;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px dotted red;
+    background-color: rgb(220, 121, 121);
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-shadow: 1px 1px red;
+
+}
+
+#lapsetime{
+    width: 100%;
+    background-color: rgb(220, 121, 121);
+    margin: 0px;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    text-shadow: 1px 1px red;
+
+}
+
+pre{
+    font-family: Times New Roman;
+    font-size: 2vw;
+    margin: 0px;
+    padding: 0px;
+    color: darkgreen;
+
+}
